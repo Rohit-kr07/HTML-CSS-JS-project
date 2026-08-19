@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/CssStyle/Signup.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="logo">
+        <h2>Create your account</h2>
+        <p class="subtitle">Sign up to access the practice dashboard</p>
+      </div>
+      <form action="#" method="post">
+        <div class="row">
+          <div class="field">
+            <label class="text" for="fname">First Name:</label>
+            <input
+              id="fname"
+              type="text"
+              name="fname"
+              placeholder="Enter First Name"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label class="text" for="lname">Last Name:</label>
+            <input
+              id="lname"
+              type="text"
+              name="lname"
+              placeholder="Enter Last Name"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="text" for="email">Email Address:</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.com$"
+            title="Email must end with .com"
+          />
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label class="text" for="password">Password:</label>
+            <div class="password-container">
+              <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+              <span class="toggle-password" onclick="togglePass()">👁️</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="text" for="cpassword">Confirm Password:</label>
+            <input
+              id="cpassword"
+              type="password"
+              name="password"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+        </div>
+        <div class="options">
+          <h5>Use at least 8 character,with letter & number</h5>
+        </div>
+
+        <p class="alt">
+          <input type="checkbox" id="terms" name="terms" required />I agree to
+          the Terms
+        </p>
+
+        <button id="signIn" class="buttontext" type="submit">
+          Create Account
+        </button>
+        <p class="alt">
+          Already have account <a id="Login" href="#">Sign in</a>
+        </p>
+      </form>
+    </div>
+    <script src="/JsFile/Signup.js"></script>
+  </body>
+</html>

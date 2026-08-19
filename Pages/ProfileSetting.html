@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>Overview</title>
+    <link rel="stylesheet" href="/CssStyle/ProfileSetting.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="left-content">
+        <div class="user-info">
+          <div class="user-logo">DU</div>
+          <div class="emails">
+            <span id="inner-name">Demo User</span>
+            <span class="email" id="inner-email">demo@webtech.practice</span>
+          </div>
+        </div>
+
+        <div class="top-section">
+          <p class="dash">DASHBOARD</p>
+
+          <div class="nav">
+            <div id="Overview">Overview</div>
+            <div id="Profile" class="action">Profile Settings</div>
+            <div id="Security">Security</div>
+            <div id="Notification">Notifications</div>
+          </div>
+
+          <p class="dash">QUICK ACTIONS</p>
+
+          <div class="nav">
+            <div id="Help">Help & Support</div>
+          </div>
+        </div>
+
+        <p class="dash">ACCOUNT</p>
+        <div class="nav">
+          <div id="SignOut">Sign Out</div>
+        </div>
+      </div>
+      <div id="main-content">
+        <div class="heading">
+          <div>WebTech Practice Dashboard</div>
+        </div>
+
+        <div class="form-container">
+          <p class="ps">Profile Settings</p>
+
+          <form id="myform">
+            <p class="ps2">Personal Information</p>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" value="Demo User" />
+              </div>
+              <div class="form-group">
+                <label>Date of Birth</label>
+                <input type="date" placeholder="dd-mm-yyyy"/>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" value="demo@gmail.com" />
+              </div>
+              <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" value="+91 9876543210" />
+              </div>
+            </div>
+            <h3>Address Information</h3>
+            <div class="form-group full-width">
+              <label>Street Address</label>
+              <textarea placeholder="Enter your complete address"></textarea>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Country</label>
+                <input type="text" value="India" />
+              </div>
+              <div class="form-group">
+                <label>City</label>
+                <input type="text" value="Ranchi" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Pin Code</label>
+                <input type="text" value="123456" />
+              </div>
+              <div class="form-group">
+                <label>GitHub Profile</label>
+                <input type="url" value="https://github.com/username" />
+              </div>
+            </div>
+            <div class="form-actions">
+              <div id="message">saved changes successfully</div>
+              <div id="button">
+                <button type="button" class="cancel-btn" id="Cancel">
+                  Cancel changes
+                </button>
+                <button type="button" class="save-btn" id="Save">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/JsFile/Common.js"></script>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fbfbff;
+}
+#main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+#left-content {
+  width: 250px;
+  box-shadow: 0 0 10px #00eeff;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbfbff;
+}
+.user-info {
+  display: flex;
+  height: 50px;
+  gap: 10px;
+  font-size: 14px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 #4ecdc4;
+  background-color: #fbfbff;
+}
+.user-logo {
+  width: 50px;
+  height: 50px;
+  background: #0a2463;
+  color: white;
+  font-weight: bold;
+   font-size: x-large;
+  font-style: bold;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email span {
+  display: block;
+   color: black;
+   
+}
+#inner-name{
+  font-weight:600;
+  font-size: 14px;
+  line-height: 1.9;
+}
+#inner-email{
+  font-size: 12px;
+  color:black;
+}
+.dash {
+  color: black;
+  font-size: small;
+  font-weight: lighter;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav > div {
+  width: 70%;
+  margin-left: 20px;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: small;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.nav > div:hover {
+  border: 1px solid #4ecdc4;
+  background-color: #f1f3f4;
+  cursor: pointer;
+}
+.action {
+  border: 1px solid #4ecdc4;
+
+  background-color: #f1f3f4;
+}
+#main-content {
+  width: 100%;
+  overflow: hidden;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  background-color: #0a2463;
+  padding: 20px;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+.top-container {
+  flex: 1;
+}
+.bottom-container {
+  margin: 20px;
+}
+
+.container {
+  max-width: 980px;
+  margin: 25px 40px 80px 20px;
+  background: #fff;
+  border: 1px solid #4ecdc4;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #4ecdc4;
+  border-top: 3px solid #4ecdc4;
+}
+
+h2 {
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #000000;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 16px;
+}
+
+.faq-box,
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box {
+  background: #f1f3f4;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #4ecdc4;
+}
+
+h4 {
+  margin: 0 0 10px 0;
+  color: #000000;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 700;
+}
+
+p {
+  color: #000000;
+  margin: 0;
+  font-size: 14px;
+  font-style: regular;
+  font-weight: 400;
+}

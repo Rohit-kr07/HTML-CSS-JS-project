@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/CssStyle/Login.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="logo">
+        <h2>Welcome back</h2>
+        <p class="subtitle">Sign in to continue to your dashboard</p>
+      </div>
+
+      <form action="#" method="post">
+        <label for="email">Email Address:</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.com$"
+          title="Email must end with .com"
+        />
+
+        <label for="password">Email Password:</label>
+        <div class="password-container">
+          <input
+            class="input"
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Enter your email password "
+            required
+          />
+          <span class="toggle-password" onclick="togglePass()">👁️</span>
+        </div>
+        <h5>Password must be at least 8 character long</h5>
+        <div class="options">
+          <label class="remember"
+            ><input type="checkbox" id="remember" />Remember me for 30
+            days</label
+          >
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <button id="Submit" type="submit">Sign in</button>
+        <div class="divider">
+          <p>New to WebTech Practice?</p>
+          <a id="Signup" href="#">Create an account</a>
+        </div>
+      </form>
+    </div>
+    <script src="/JsFile/Login.js"></script>
+  </body>
+</html>

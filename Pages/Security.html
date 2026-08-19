@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <title>Security</title>
+    <link rel="stylesheet" href="/CssStyle/Security.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="left-content">
+        <div class="user-info">
+          <div class="user-logo">DU</div>
+          <div class="emails">
+            <span id="inner-name">Demo User</span><br />
+            <span class="email" id="inner-email">demo@webtech.practice</span>
+          </div>
+        </div>
+
+        <div class="top-section">
+          <p class="dash">DASHBOARD</p>
+
+          <div class="nav">
+            <div id="Overview">Overview</div>
+            <div id="Profile">Profile Settings</div>
+            <div id="Security" class="action">Security</div>
+            <div id="Notification">Notifications</div>
+          </div>
+
+          <p class="dash">QUICK ACTIONS</p>
+
+          <div class="nav">
+            <div id="Help">Help & Support</div>
+          </div>
+        </div>
+
+        <div class="bottom-section">
+          <p class="dash">ACCOUNT</p>
+          <div class="nav">
+            <div id="SignOut">Sign Out</div>
+          </div>
+        </div>
+      </div>
+      <div id="main-content">
+        <div class="heading">
+          <div>WebTech Practice Dashboard</div>
+        </div>
+
+        <div class="security-container">
+          <h1>Security Settings</h1>
+          <p>Security Setting</p>
+          <p>
+            Keep your account secure by using a strong password and changing it
+            regularly.
+          </p>
+
+          <form id="myForm1" class="password-form">
+            <div class="input-group">
+              <label for="current-password">Current Password</label>
+              <input
+                type="password"
+                id="current-password"
+                placeholder="Enter current password"
+              />
+            </div>
+
+            <div class="input-group">
+              <label for="new-password">New Password</label>
+              <input
+                type="password"
+                id="new-password"
+                placeholder="Minimum 6 characters"
+              />
+            </div>
+
+            <div class="input-group full-width">
+              <label for="confirm-password">Confirm New Password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                placeholder="Re-enter new password"
+              />
+            </div>
+
+            <div class="button-group">
+              <div id="Message1">Update password successfully</div>
+              <div id="btn">
+                <button type="button" id="clear1" class="clear-button">
+                  Clear
+                </button>
+                <button type="button" id="update1" class="update-button">
+                  Update Password
+                </button>
+              </div>
+            </div>
+            <hr />
+          </form>
+
+          <h2>Security Information</h2>
+          <div class="info-cards-container">
+            <div class="info-card">
+              <div class="icon-placeholder"></div>
+              <h3 class="size">Account Created</h3>
+              <p class="size2">8/31/2025</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-placeholder"></div>
+              <h3 class="size">Last Updated</h3>
+              <p class="size2">Never updated</p>
+            </div>
+
+            <div class="info-card">
+              <div class="icon-placeholder"></div>
+              <h3 class="size">Session</h3>
+              <p class="size2">Current browser session active</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/JsFile/Common.js"></script>
+    <script src="/JsFile/security.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height:100px;
+  background-color: #fbfbff;
+  overflow-x:hidden;
+  
+}
+#main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap:nowrap;
+
+}
+#left-content {
+  width: 250px;
+  box-shadow: 0 0 10px #00eeff;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbfbff;
+}
+.top-section{
+    flex:1;
+}
+.bottom-section {
+  margin: 20px;}
+.user-info {
+  display: flex;
+  height: 50px;
+  gap: 10px;
+  font-size: 14px;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 #4ecdc4;
+  background-color: #fbfbff;
+}
+.user-logo {
+  width: 50px;
+  height: 50px;
+  background: #0a2463;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emails span{
+  color: black;
+  display: block;
+  
+}
+#inner-name {
+  font-weight: 600;
+  font-size: 14px;
+   line-height: 1.9;
+}
+
+#inner-email {
+  font-size: 12px;
+  color:black;
+}
+.dash {
+  color: black;
+  font-size: small;
+  font-weight: lighter;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav > div {
+  width: 70%;
+  margin-left: 20px;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: small;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.nav > div:hover {
+  border: 1px solid #4ecdc4;
+  background-color: #f1f3f4;
+  cursor: pointer;
+}
+.action {
+  border: 1px solid #4ecdc4;
+
+  background-color: #f1f3f4;
+}
+#main-content {
+  width: 100%;
+  overflow:hidden;
+  
+ 
+}
+.heading {
+  display: flex;
+  width: 100%;
+  background-color: #0a2463;
+  padding: 20px;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+
+.form-container {
+  background-color: #fbfbff;
+  padding: 10px 20px 5px 20px;                   
+  border-radius: 30px;
+  border: 1px solid #4ECDCE;
+  border-top: 4px solid #4ECDCE;
+  /* width: 100%; */
+  width: 1050px;                       
+  height: 500px;                  
+  margin: 20px;   
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: relative;
+  scrollbar-width: thin;
+ 
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 15px; 
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+
+}
+
+label {
+  font-size: 10px;
+  margin-bottom: 6px;
+  color: #333;
+  font-weight: 500;
+}
+
+input, textarea {
+  padding: 8px 10px;
+  border: 1px solid #d0d7de;
+  border-radius: 10px; 
+  font-size: 12px; 
+  background: #f9f9f9;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  border-color: #4ecdc4;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(78, 205, 196, 0.3);
+}
+
+textarea {
+   resize: none;
+  min-height: 50px;
+  margin-bottom: 20px;  
+}
+
+.ps {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ps2 {
+  margin: 20px 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button {
+  padding: 10px 19px;
+  border-radius: 8px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.cancel-btn{
+  border:1px solid #4ECDCE;
+}
+.save-btn{
+  background-color: #4ECDCE;
+  color: #f1f3f4;
+}
+
+.form-actions {
+  display: flex;
+  margin-top: 20px;
+ 
+}
+
+#button {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 18px;
+}
+
+#message {
+  display: none;
+  min-width: 200px;
+  color: green;
+  font-weight: bold;
+}
+
+
