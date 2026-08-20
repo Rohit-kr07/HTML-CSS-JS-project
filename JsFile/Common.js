@@ -14,7 +14,10 @@
     Security.addEventListener('click', ()=>{ window.location.href="Security.html"; });
 
     let Signout = document.getElementById("SignOut");
-    Signout.addEventListener('click', ()=>{ window.location.href="Login.html"; });
+    Signout.addEventListener('click', ()=>{
+        sessionStorage.removeItem("loggedInUser");
+        window.location.href="Login.html";
+    });
 
 
     let form = document.getElementById("myform");

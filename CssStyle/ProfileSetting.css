@@ -62,16 +62,18 @@ body {
   font-size: 12px;
   color:black;
 }
-.dash {
-  color: black;
-  font-size: small;
-  font-weight: lighter;
-  margin: 20px;
-  margin-bottom: 10px;
+
+.dash{
+    color: black;
+    font-size: small;
+    font-weight: lighter;
+    margin: 20px;
+    margin-bottom: 10px;
 }
-.nav {
-  display: flex;
-  flex-direction: column;
+.nav{
+    display: flex;
+    flex-direction: column;
+    
 }
 .nav > div {
   width: 70%;

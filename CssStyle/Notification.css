@@ -53,6 +53,9 @@ body{
   font-size: 12px;
   color:black;
 }
+.bottom-container{
+    margin: 20px;
+}
 .dash{
     color: black;
     font-size: small;
@@ -95,9 +98,7 @@ body{
 .top-container{
     flex:1;
 }
-.bottom-container{
-    margin: 20px;
-}
+
 .heading{
     display: flex;
     width: 100%;

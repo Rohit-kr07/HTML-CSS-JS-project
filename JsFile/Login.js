@@ -39,6 +39,7 @@ form.addEventListener("submit", function (e) {
   let savedUser = JSON.parse(localStorage.getItem("user"));
 
   if (savedUser && savedUser.email === email && savedUser.password === pass) {
+    sessionStorage.setItem("loggedInUser", "true");
     alert("Login Successful ✅");
     window.location.href = "Overview.html";
   } else {
